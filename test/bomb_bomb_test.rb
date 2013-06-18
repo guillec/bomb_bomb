@@ -3,6 +3,7 @@ require "bomb_bomb"
 require "minitest/mock"
 
 describe "BombBomb API method calls samples" do
+
   before do
     @email         = "guille@fivestreet.com"
     @pw            = "12345"
