@@ -1,5 +1,7 @@
 # BombBomb
-[![CodeClimate](https://codeclimate.com/github/guillec/http_problem.png)](https://codeclimate.com/github/guillec/bomb_bomb)
+[![CodeClimate](https://codeclimate.com/github/guillec/bomb_bomb.png)](https://codeclimate.com/github/guillec/bomb_bomb)
+[![Build
+Status](https://travis-ci.org/guillec/bomb_bomb.png)](https://travis-ci.org/guillec/bomb_bomb)
 
 TODO: Write a gem description
 
