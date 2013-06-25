@@ -1,5 +1,4 @@
 require "bomb_bomb/version"
-require "net/http"
 require "json"
 
 module BombBomb
@@ -30,9 +29,8 @@ module BombBomb
     end
 
     def make_call(method, args)
-      uri = URI("https://app.bombbomb.com/app/api/api.php?method=#{method}")
-      response = Net::HTTP.post_form(uri, param_fields(args))
-      JSON.load("[#{response.body}]").first
+      response = Curl.post("https://app.bombbomb.com/app/api/api.php?method=#{method}", param_fields(args))
+      JSON.load("[#{response.body_str}]").first
     end
 
     def camelize_method(method)

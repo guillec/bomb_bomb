@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["guille@bitpop.in"]
   spec.description   = %q{Gem for the BombBomb API}
   spec.summary       = %q{Gem for the BombBomb API}
-  spec.homepage      = "http://github/guillec/bomb_bomb"
+  spec.homepage      = "https://github.com/guillec/bomb_bomb"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)

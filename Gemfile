@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+gem 'curb'
+
 group :test do
   gem 'minitest'
 end
